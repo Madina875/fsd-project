@@ -1,9 +1,10 @@
 import { memo } from "react";
+import { AboutHero } from "../../../widgets/about-hero";
 
 export const About = memo(() => {
   return (
-    <div className="About">
-      <h2>About</h2>
+    <div>
+      <AboutHero />
     </div>
   );
 });
