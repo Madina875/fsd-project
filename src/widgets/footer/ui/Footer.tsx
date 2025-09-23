@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 const Footer = () => {
   return (
     <div className=" w-full min-h-[170px] bg-white shadow flex flex-col py-10 items-center">
-      <div className="container flex items-center justify-between">
+      <div className="container flex items-center justify-center gap-10 md:justify-center lg:justify-between">
         <ul className="uppercase flex flex-col md:flex-col lg:flex-row gap-8 text-gray-500 font-medium">
           <NavLink
             className={({ isActive }) =>
