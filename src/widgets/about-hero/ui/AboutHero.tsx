@@ -4,7 +4,7 @@ import abouthero from "@/shared/assets/Group 2.png";
 export const AboutHero = memo(() => {
   return (
     <div
-      className="container rounded-[24px] mt-[32px] h-[250px] bg-center flex flex-col items-center justify-center bg-[#EAF1EB]"
+      className="container rounded-[24px] mt-[32px] min-h-[250px] bg-center flex flex-col items-center justify-center bg-[#EAF1EB]"
       style={{ backgroundImage: `url(${abouthero})` }}
     >
       <p className="text-5xl font-medium mb-5">Who we are and what we do</p>

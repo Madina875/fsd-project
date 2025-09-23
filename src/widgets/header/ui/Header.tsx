@@ -12,7 +12,7 @@ const Header = () => {
         <p className="text-3xl text-[#359740] -tracking-wider uppercase font-bold">
           Seedra
         </p>
-        <ul className="uppercase flex gap-8 text-gray-500 font-medium">
+        <ul className="uppercase hidden lg:flex gap-8 text-gray-500 font-medium">
           <NavLink
             className={({ isActive }) =>
               `uppercase border-r border-gray-300 pr-5 ${
@@ -53,8 +53,8 @@ const Header = () => {
           </NavLink>
         </ul>
 
-        <div className="flex items-center gap-3 w-[30%]">
-          <div className="flex gap-2 text-2xl text-gray-500">
+        <div className="flex items-center gap-3">
+          <div className="lg:flex gap-2 text-2xl hidden text-gray-500">
             <RiInstagramFill />
             <FaFacebook />
           </div>

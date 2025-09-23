@@ -3,7 +3,7 @@ import img from "@/shared/assets/Group 3.png";
 
 export const AboutInfo = memo(() => {
   return (
-    <div className="container h-[480px] pl-2 gap-2 flex mt-[57px]">
+    <div className="container h-[480px] pl-2 gap-2 flex lg:flex-row md:flex-col sm:flex-col mt-[57px]">
       <div>
         <h2 className="mb-[31px] text-4xl font-medium w-150">
           Seedra helps to grow fast and efficiant

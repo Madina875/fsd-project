@@ -5,9 +5,9 @@ import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className=" w-full h-[170px] bg-white shadow flex flex-col py-10 items-center">
+    <div className=" w-full min-h-[170px] bg-white shadow flex flex-col py-10 items-center">
       <div className="container flex items-center justify-between">
-        <ul className="uppercase flex gap-8 text-gray-500 font-medium">
+        <ul className="uppercase flex flex-col md:flex-col lg:flex-row gap-8 text-gray-500 font-medium">
           <NavLink
             className={({ isActive }) =>
               `uppercase border-r border-gray-300 pr-5 ${
@@ -42,7 +42,7 @@ const Footer = () => {
         <p className="text-3xl text-[#359740] -tracking-wider uppercase font-bold">
           Seedra
         </p>
-        <ul className=" capitalize mr-30 ml-15  text-gray-500 ">
+        <ul className=" capitalize mr-30 ml-15 flex flex-col md:flex-col lg:flex-row text-gray-500 ">
           <NavLink
             className={({ isActive }) =>
               ` border-r border-gray-300 pr-10 ${

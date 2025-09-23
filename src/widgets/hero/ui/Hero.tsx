@@ -4,8 +4,8 @@ import { TbFlameFilled } from "react-icons/tb";
 
 export const Hero = memo(() => {
   return (
-    <div className="container mt-8 min-h-[455px] flex bg-[#EAF1EB] rounded-[24px]">
-      <div className="w-[65%] pl-19 pt-15">
+    <div className="container mt-8 min-h-[455px] flex flex-col md:flex-row bg-[#EAF1EB] rounded-[24px]">
+      <div className="w-[65%] lg:pl-19 md:py-10 sm:pt-5 lg:pt-15">
         <h2 className="text-5xl font-medium text-left mb-4">
           SEEDRA Basil Seeds for Indoor and Outdoor Planting
         </h2>
